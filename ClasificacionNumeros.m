@@ -20,6 +20,8 @@ c_numero_Reales = 'ℝ = { I, ℚ, ℤ, ℕ }';
 % Propiedades de los números, sean a,b,c,d,e ∈ ℝ
 
 % Propiedades de ∈ (Cerradura)
+display('');
+display('Propiedades (Axiomas) algebraicos');
 display('Propiedades de Cerradura');
 p_cerradura = 'a + b ∈ ℝ';
 a=3;
@@ -34,6 +36,7 @@ p_cerradura4 = '∈ = pertenecia';
 '{-?, -3, -2, -1, 0, 1, 2, 3, ?}';
 
 % Propiedad asociativa
+display('');
 display('Propiedad asociativa');
 p_asociativa = 'a + ( b + c )';
 a=5;
@@ -63,25 +66,27 @@ a+(b-c)
 (b+a)-c
 
 % Propiedad conmutativa
+display('');
 display('Propiedad conmutativa');
 p_conmutativa = 'a + b = b + a';
 a=3;
 b=6;
+display('Adicion');
 a+b
 b+a
 
 % Adicion
-a=4
-b=5
 a+b
 b+a
 p_conmutativa2 = 'a b = b a';
 a=3;
 b=4;
+display('Multiplicacion');
 a*b
 b*a
 
 % Propiedad distributiva
+display('');
 display('Propiedad distributiva');
 p_distributiva = 'a ( b + c ) = a b + a c'; 
 a=4;
@@ -91,7 +96,9 @@ a*(b+c)
 a*b+(a*c)
 
 % Neutro aditivo
+display('');
 display('Neutro aditivo');
+display('El elemento neutro aditivo es el 0');
 p_neutroA = 'a + 0 = a';
 a=3;
 a+0
@@ -102,43 +109,34 @@ a+0;
 0+a
 
 % Neutro multiplicativo
+display('');
 display('Neutro multiplicativo');
+display('El elemento neutro multiplicativo es el 1');
 p_neutroM = 'a ( 1 ) = a';
 a=3;
 a*(1)
 
 % Inverso aditivo
+display('');
 display('Inverso aditivo');
 p_inversoA = 'a + -a = 0';
 a=3;
 a+(-a)
 
 % Inverso multiplicativo o recíproco
+diaplay('');
 display('Inverso multiplicativo')
 p_inversoM = 'a ( 1/a ) = 1';
 a=3;
 a*(1/a)
 
 % Propiedad transitiva (| enconces)
-p_transitiva = 'si a > b y b > c | a > c';
-a=5;
-b=4;
-c=3;
-a>b
-b>c
-a>c
+display('Propiedades (Axiomas) de orden');
+display('Propiedad Transitiva');
 
-p_transitiva2 = 'si a = b y b = c | a = c';
-a=2;
-b=2;
-c=2;
-a=b
-b=c
-a=c
 %Propiedad transitividad 
 p_transitiv=  'si a   >  b  & b >  c |  a  >  c ' ;
 p_transitiva2 =  ' si  a  =  b  & b  =  c | a  =  c';
-disp (' Propiedad Transitividad')
 a = 12;
 b= 6;
 c = 3;
@@ -146,6 +144,7 @@ a >  b  && b > c | a > c
 a == b  && b == c  |  a == c 
 
 % Tricotomía (raíz del algebra) siempre se pueden comparar
+display('Triconomia');
 p_tricotomia = 'a > b';
 a=3;
 b=2;
